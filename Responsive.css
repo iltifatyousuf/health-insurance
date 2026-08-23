@@ -1,0 +1,377 @@
+/* ====== Nav Bar ======= */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px 2%;
+  }
+
+  .sub-menu-wrap {
+    width: auto;
+    max-height: 1000px;
+    top: 80px;
+    right: 0;
+  }
+
+  .sub-menu {
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar ul {
+    padding-top: 10px;
+  }
+
+  .navbar ul li {
+    margin: 5px 0;
+  }
+
+  .navbar ul li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar p {
+    font-size: 14px;
+  }
+
+  .navbar ul li {
+    margin: 3px 0;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header-content h1 {
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 100%;
+  }
+
+  .header-content h1::after {
+    content: none;
+  }
+
+  .header-content h2 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .back-img {
+    padding: 10px 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .back-img {
+    padding: 10px 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-img {
+    padding: 10px 3%;
+  }
+}
+
+@media (max-width: 576px) {
+  .back-img {
+    padding: 10px 2%;
+  }
+}
+/* ======== feature ========== */
+@media screen and (max-width: 1200px) {
+  .features::before,
+  .features::after,
+  #bow::after {
+    display: none;
+  }
+
+  .features {
+    padding: 30px 8%;
+  }
+
+  .text-col,
+  .img-col {
+    flex-basis: 100%;
+  }
+
+  .img-col img {
+    width: 100%;
+  }
+}
+/* ========= medicare ======= */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 80px auto;
+    margin-bottom: 30px;
+  }
+
+  .columns {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 20px;
+  }
+
+  .column img {
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  #medico {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+/* ======== Banner ========== */
+@media screen and (max-width: 768px) {
+  .banner {
+    margin: 50px 20px;
+  }
+
+  .ban::before,
+  .ban::after,
+  .png-col img {
+    display: none;
+  }
+
+  .ban-col,
+  .png-col {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .banner h2 {
+    margin-right: 0;
+  }
+
+  #buny {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .png-col img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .banner h2 {
+    margin-top: -65px;
+  }
+
+  .ban-col p {
+    margin-right: 0;
+    margin-top: -25px;
+  }
+
+  #buny {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ban-col,
+  .png-col {
+    flex-basis: 100%;
+  }
+}
+
+/* ======== My insurance ======== */
+@media screen and (max-width: 768px) {
+  .finder {
+    margin: 80px auto;
+    margin-bottom: 30px;
+  }
+
+  .purps {
+    flex-direction: column;
+  }
+
+  .purp {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 30px;
+  }
+
+  .purp img {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 40%;
+  }
+}
+/* ======== Advantage Plan ======== */
+@media screen and (max-width: 768px) {
+  .plan {
+    padding: 50px 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  header p {
+    margin-bottom: 30px;
+  }
+
+  .calls {
+    flex-direction: column;
+  }
+
+  .call {
+    flex-basis: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 30px;
+  }
+
+  .call img {
+    margin-top: 30px;
+    margin-left: 115px;
+  }
+
+  .fa-chevron-right {
+    margin-top: 0;
+  }
+
+  #chevy {
+    margin-top: 30px;
+  }
+}
+/* ======== Flexible Coverage ======== */
+@media screen and (max-width: 768px) {
+  .flexible {
+    padding: 50px 20px;
+  }
+
+  .last {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .font-col,
+  .pic-col {
+    flex-basis: 100%;
+  }
+
+  .pic-col img {
+    margin-top: 20px;
+  }
+
+  .flexible h2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+/* ======== Slider ========= */
+@media only screen and (max-width: 768px) {
+  .slider {
+    grid-gap: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .fox {
+    padding: 70px;
+    margin-right: 260px;
+  }
+}
+/* ======== Hover Card ======== */
+@media (min-width: 577px) and (max-width: 992px) {
+  .box-area {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    margin-top: 25px;
+  }
+
+  .overlay {
+    padding: 0 15px;
+    font-size: 11px;
+  }
+
+  .overlay h3 {
+    font-size: 20px;
+  }
+
+  .overlay a {
+    margin-top: 12px;
+    font-size: 11px;
+    padding: 2px 9px;
+  }
+}
+@media (max-width: 576px) {
+  .box h4 {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+
+  .box p {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .box h5 {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 18px;
+  }
+
+  #card-area header {
+    font-size: 16px;
+  }
+
+  #card-area header p {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* ======== Footer ========== */
+@media screen and (min-width: 600px) {
+  .r-footer > * {
+    flex: 1;
+  }
+  .features {
+    flex-grow: 2;
+  }
+  .l-footer {
+    flex: 1 0px;
+  }
+  .r-footer {
+    flex: 2 0px;
+  }
+}
+
+/* ======== Accordion ======== */
+
+/* ======== Bottom ========== */
